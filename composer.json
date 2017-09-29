@@ -14,5 +14,10 @@
         "php": "^5.6 || ^7.0",
         "symfony/stopwatch": "^3.3"
     },
-    "bin": ["build/profiler.phar"]
+    "suggest": {
+        "stati/stati": "An extensible, jekyll-compatible PHP static site generator"
+    },
+    "bin": ["build/profiler.phar"],
+    "license": "MIT",
+    "homepage": "https://stati.jfoucher.com"
 }
